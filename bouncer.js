@@ -1,9 +1,8 @@
 // Initialize starting position and velocity
-let position = { x: Math.random() * window.innerWidth, y: Math.random() * window.innerHeight };
-let velocity = { x: (Math.random() - 0.5) * 20, y: (Math.random() - 0.5) * 20 };
-const emoji = document.getElementById('bouncer');
-
-const emojiSize = 80; // Size of the emoji in pixels
+const logoSize = 180; // Size of the logo in pixels
+let position = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+let velocity = { x: (Math.random() - 0.5) * 15, y: (Math.random() - 0.5) * 15 };
+const logo = document.getElementById('bouncer');
 
 // Function to update position and handle bouncing
 function update() {
@@ -12,16 +11,16 @@ function update() {
   position.y += velocity.y;
 
   // Bounce off walls
-  if (position.x < 0 || position.x > window.innerWidth - emojiSize) {
+  if (position.x < 0 || position.x > window.innerWidth - logoSize) {
     velocity.x = -velocity.x;
   }
-  if (position.y < 0 || position.y > window.innerHeight - emojiSize) {
+  if (position.y < 0 || position.y > window.innerHeight - logoSize) {
     velocity.y = -velocity.y;
   }
 
-  // Set position of the emoji
-  emoji.style.left = `${position.x}px`;
-  emoji.style.top = `${position.y}px`;
+  // Set position of the logo
+  logo.style.left = `${position.x}px`;
+  logo.style.top = `${position.y}px`;
 
   // Request next frame
   requestAnimationFrame(update);
