@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGPCFK6WMF"></script>
@@ -11,19 +11,12 @@
   gtag('config', 'G-EGPCFK6WMF');
   </script>
 
-  <style>
-    #bouncer, #bouncer img {
-      width: 180px;
-      position: absolute;
-    }
+  <meta charset="UTF-8">
+  <meta name="description" content="Le Cercle est un studio de développement logiciel spécialisé dans l'IA et basé en France.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    body {
-      background-color: white;
-      overflow: hidden; /* Hide scrollbars */
-    }
-  </style>
-
-  <title>Cercle.Studio</title>
+  <title>Cercle.Studio - Le studio de développement logiciel spécialisé dans l'IA</title>
 
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32.png">
@@ -32,9 +25,113 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon-180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon/favicon-192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/favicon/favicon-512.png">
+
+  <style>
+    body {
+      background-color: white;
+      text-align: center;
+      font-family: Arial;
+      font-size: 1.2em;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      4% {
+        transform: rotate(360deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    #logo {
+      animation: rotate 15s linear infinite;
+      animation-delay: 4s;
+      width: 180px;
+    }
+
+    h2, h3, h4 {
+      font-weight: normal;
+    }
+
+    a, a:visited, a:active, a:hover {
+      color: #4a15ad;
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 500px;
+      max-height: 500px;
+    }
+  </style>
 </head>
 <body>
-  <div id="bouncer"><img src="/logo/logo-transparent-bg.png"></div>
-  <script src="/bouncer.js"></script>
+  <img id="logo" src="/logo/logo-transparent-bg.png">
+  <h1>Cercle.Studio</h1>
+  <h2>Le studio de développement logiciel spécialisé dans l'IA</h2>
+
+  <div>
+    <h2>Nos services</h2>
+
+    <h3>Consulting en IA</h3>
+    <p>Nous pouvons vous aider à définir votre stratégie IA.</p>
+
+    <h3>Création de MVP</h3>
+    <p>Nous créons des logiciels qui utilisent l'IA afin d'automatiser les tâches répétitives, optimiser les process et accélérer la prise de décision. Pour cela, nous intégrons notamment des modèles avancés d'IA générative tels que GPT (ChatGPT) et Stable Diffusion.</p>
+    
+    <h3>Développement de modèles d'IA</h3>
+    <p>Nous pouvons développer un modèle d'IA spécialement pour vous. Cela inclut la création du dataset (avec des données ouvertes ou les votres), sa préparation, l'entrainement et le paramétrage du modèle, afin de fournir des résultats fiables.</p>
+  </div>
+
+  <div>
+    <h2>Nos derniers projets</h2>
+
+    <div>
+      <h3>Histoires infinies</h3>
+      <p>
+        <img src="/projects/histoires-infinies-1.png">
+        <img src="/projects/histoires-infinies-2.png">
+        <img src="/projects/histoires-infinies-3.png">
+      </p>
+      <p>Histoires Infinies est une application mobile qui permet aux enfants de tous âges de créer des histoires en choisissant un personnage, un lieu et une aventure. L'histoire est générée grâce à GPT et narrée par un système de synthèse vocale. La combinaison de 20 personnages, 20 lieux et 10 types d'aventures donne lieu à des milliers de possibilités.</p>
+      <p>#Mobile, #GPT, #TextToSpeech, #Android, #iOS, #React</p>
+    </div>
+
+    <div>
+      <h3>Firewatch</h3>
+      <p>
+        <img src="/projects/firewatch-1.jpg">
+        <img src="/projects/firewatch-2.jpg">
+        <img src="/projects/firewatch-3.png">
+      </p>
+      <p>Firewatch est une IA qui détecte, en temps quasi réel, les principaux incendies à l'échelle mondiale afin d'alerter sur le réchauffement climatique. Utilisant les images des satellites Sentinel-2, elle s'appuie sur le modèle de détection d'objets YOLOv5, entraîné sur un dataset créé par nos soins. Les détections sont partagées sur Twitter pour une diffusion rapide, tandis qu'un tableau de bord permet d'avoir une vision globale.</p>
+      <p>#SatelliteImagery, #ClimateChange, #ComputerVision, #YoloV5, #AWS, #Python</p>
+    </div>
+
+    <div>
+      <h3>Pyko Analytics</h3>
+      <p>
+        <img src="/projects/pyko-insights-1.jpg">
+        <img src="/projects/pyko-insights-2.jpg">
+        <video width="320" height="240" controls><source src="/projects/pyko-insights-3.mp4" type="video/mp4"> Votre navigateur ne peut pas lire cette vidéo</video>
+      </p>
+      <p>Pyko Analytics est application web, conçue pour se synchroniser à votre CRM Salesforce et faciliter l'analyse de vos données. Elle génère automatiquement des graphiques pertinents pour votre activité, rendant la visualisation de votre funnel de vente plus intuitive et efficace. Le système d'insights, propulsé par GPT, analyse dynamiquement les données et met en avant les inefficacités et les opportunités sur l'ensemble du funnel de vente.</p>
+      <p>#Insights, #Salesforce, #Graphs, #GPT, #React, #RubyOnRails</p>
+    </div>
+
+    <div>
+      <h3>StonkGPT</h3>
+      <p><img src="/projects/stonkgpt-1.jpg"></p>
+      <p>StonkGPT est un logiciel qui offre des recommandations pour l'achat et la vente à découvert d'actions d'entreprises cotées à la bourse de Paris. S'appuyant sur un récent <a target="_blank" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4412788">article scientifique</a>, il exploite la capacité du modèle GPT à analyser les articles de presse afin d'en déduire l'impact probable sur le marché des actions.</p>
+      <p>#Actions, #Recherche, #SentimentAnalysis, #Python, #GPT</p>
+    </div>
+  </div>
+
+  <p>
+    <h2>Besoin d'aide pour déterminer comment l'IA peut aider votre business ?</h2>
+    <a target="_blank" href="https://meetings.hubspot.com/cercle-studio">Prévoir un appel</a>
+  </p>
 </body>
 </html>
