@@ -61,9 +61,10 @@
       font-weight: bold;
     }
 
-    img {
+    img, video {
       max-width: 500px;
       max-height: 500px;
+      border: 1px solid #eee;
     }
   </style>
 </head>
@@ -91,9 +92,9 @@
     <div>
       <h3>Histoires infinies</h3>
       <p>
-        <img src="/projects/histoires-infinies-1.png">
-        <img src="/projects/histoires-infinies-2.png">
-        <img src="/projects/histoires-infinies-3.png">
+        <img src="/projects/histoires-infinies-iphone-1.png">
+        <img src="/projects/histoires-infinies-iphone-2.png">
+        <img src="/projects/histoires-infinies-iphone-3.png">
       </p>
       <p>Histoires Infinies est une application mobile qui permet aux enfants de tous âges de créer des histoires en choisissant un personnage, un lieu et une aventure. L'histoire est générée grâce à GPT et narrée par un système de synthèse vocale. La combinaison de 20 personnages, 20 lieux et 10 types d'aventures donne lieu à des milliers de possibilités.</p>
       <p>#Mobile, #GPT, #TextToSpeech, #Android, #iOS, #React</p>
@@ -123,7 +124,10 @@
     <div>
       <h3>StonkGPT</h3>
       <p>
-        <img src="/projects/stonkgpt-1.gif">
+        <video autoplay loop muted style="object-fit: cover;">
+          <source src="/projects/stonkgpt-1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>        
       </p>
       <p>StonkGPT est un logiciel qui offre des recommandations pour l'achat et la vente à découvert d'actions d'entreprises cotées à la bourse de Paris. S'appuyant sur un récent <a target="_blank" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4412788">article scientifique</a>, il exploite la capacité du modèle GPT à analyser les articles de presse afin d'en déduire l'impact probable sur le marché des actions.</p>
       <p>#Actions, #Recherche, #SentimentAnalysis, #Python, #GPT</p>
