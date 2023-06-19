@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #111112;
+    color: white;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    4% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+#logo {
+    animation: rotate 15s linear infinite;
+    animation-delay: 3s;
+    width: 100px;
+    border: 0;
+    border: 1px solid white;
+    border-radius: 900px;
+}
