@@ -7,30 +7,31 @@ function App() {
         <img id="logo" className="w-28 mx-auto" src={logo} alt="logo" />
 
         <h1 className="text-3xl text-center mb-40">cercle.studio</h1>
-        <h2 className="text-7xl text-center mb-60">Nous créons des produits sur-mesure,<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400">propulsés par l'IA</span><span className="text-5xl">.</span></h2>
+        <h2 className="text-7xl text-center mb-48">Nous créons des produits sur-mesure,<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400">propulsés par l'IA</span><span className="text-5xl">.</span></h2>
 
 
 
-        <h3 className="text-center text-4xl mb-10 font-bold">Nos services</h3>
+        <h3 className="text-center text-4xl mb-3 font-bold"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-9 h-9 inline-block"><path fillRule="evenodd" d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z" clipRule="evenodd" /></svg> Nos services</h3>
+        <h4 className="text-center text-xl mb-16 text-slate-500">Quelle que soit l'étape à laquelle vous vous trouvez, d'une simple idée à un projet bien défini,<br/>nous sommes à vos cotés pour vous aider à concrétiser vos objectifs.</h4>
 
-        <div className="grid grid-cols-3 mb-40 gap-12 text-justify">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 mb-40 gap-12 text-justify">
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
-              <h4 className="text-xl card-title text-purple-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" /></svg>Consulting en IA</h4>
-              <p className="text-lg">Nous analysons votre activité et vos données afin de vous aider à définir votre stratégie IA.</p>
+              <h4 className="text-xl card-title text-purple-600 mb-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" /></svg>Consulting en IA</h4>
+              <p className="text-lg">Nous analysons votre activité et vos données afin de vous aider à définir votre stratégie en Intelligence Artificielle.</p>
             </div>
           </div>
 
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
-              <h4 className="text-xl card-title text-blue-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" /></svg> Création de MVP</h4>
+              <h4 className="text-xl card-title text-blue-600 mb-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" /></svg> Création de MVP</h4>
               <p className="text-lg">Nous créons des logiciels qui utilisent l'IA afin d'automatiser les tâches répétitives, optimiser les process et accélérer la prise de décision. Pour cela, nous intégrons notamment des modèles avancés d'IA générative tels que GPT (ChatGPT) et Stable Diffusion.</p>
             </div>
           </div>
 
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
-              <h4 className="text-xl card-title text-blue-200"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg> Développement de modèles IA</h4>
+              <h4 className="text-xl card-title text-blue-200 mb-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg> Développement de modèles IA</h4>
               <p className="text-lg">Nous pouvons développer un modèle IA spécialement pour vous. Cela inclut la création du dataset (avec des données ouvertes ou les votres), sa préparation, l'entrainement et le paramétrage du modèle, afin de fournir des résultats fiables.</p>
             </div>
           </div>
@@ -40,9 +41,10 @@ function App() {
       <div data-theme="light" className="bg-slate-50">
         <div className="container mx-auto py-6">
 
-          <h3 className="text-center text-4xl mt-20 mb-10 font-bold">Nos derniers projets</h3>
+          <h3 className="text-center text-4xl mt-20 mb-3 font-bold"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-9 h-9 inline-block"><path fillRule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clipRule="evenodd" /><path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z" /></svg> Nos derniers projets</h3>
+          <h4 className="text-center text-xl mb-16 text-slate-500">Applications web, mobiles, APIs...</h4>
 
-          <div className="grid grid-cols-2 mb-40 gap-12 text-justify">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 mb-40 gap-12 text-justify">
           <div className="card bg-base-100 shadow-xl">
               <figure>
                 <img src="/histoires-infinies-mobile.png" alt="" />
@@ -119,7 +121,7 @@ function App() {
       </div>
 
 
-      <div className="container mx-auto py-24">
+      <div className="mx-auto py-24 bg-gradient-to-r from-purple-900 to-purple-950">
         <h3 className="text-4xl text-center mb-8">Une idée ou un projet en tête ?</h3>
         <div className="text-center">
           <a className="btn btn-primary" target="_blank" rel="noreferrer" href="https://meetings.hubspot.com/cercle-studio">
