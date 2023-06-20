@@ -22,8 +22,6 @@ body {
 #logo {
     animation: rotate 15s linear infinite;
     animation-delay: 3s;
-    width: 100px;
-    border: 0;
     border: 1px solid white;
     border-radius: 900px;
 }
