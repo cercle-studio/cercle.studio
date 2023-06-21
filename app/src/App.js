@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="font-sans">
       <div className="container mx-auto px-3 py-6">
-        <h1 className="text-3xl text-center mb-32 md:mb-44 2xl:mb-52 font-mono"><img id="logo" className="w-16 inline-block" src={logo} alt="logo" /> studio cercle</h1>
+        <h1 className="text-3xl text-center mb-32 md:mb-44 2xl:mb-52 font-mono"><img id="logo" className="w-16 inline-block mr-1" src={logo} alt="logo" /> studio cercle</h1>
         <h2 className="text-5xl md:text-7xl text-center mb-12">Intégrez l'IA dans votre business</h2>
         <h2 className="text-xl md:text-2xl text-center mb-12">Nous créons des produits sur-mesure, <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400">propulsés par l'Intelligence Artificielle</span></h2>
 
@@ -226,7 +226,7 @@ function App() {
       </div>
 
       <div className="bg-purple-950 py-6 pb-4 opacity-70 grid grid-cols-2">
-        <div className="text-left pl-10">© {new Date().getFullYear()} cercle.studio</div>
+        <div className="text-left pl-10">© {new Date().getFullYear()} studio cercle</div>
 
         <div className="text-right pr-10">
           <a href="https://twitter.com/cercle_studio" target="_blank" rel="noreferrer" className="inline-block">
