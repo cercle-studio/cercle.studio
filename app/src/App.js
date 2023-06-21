@@ -41,21 +41,21 @@ function App() {
         <h4 className="text-center text-xl mb-20 text-slate-500">Quelle que soit l'étape à laquelle vous vous trouvez, d'une simple idée à un projet bien défini,<br/>nous sommes à vos côtés pour vous aider à concrétiser vos objectifs.</h4>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 mb-40 gap-12 text-justify">
-          <div className="card bg-base-100 shadow-xl shadow-neutral-900">
+          <div className="card bg-base-100 shadow-sm shadow-neutral-900">
             <div className="card-body">
               <h4 className="text-2xl card-title text-purple-600 mb-2 text-start"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" /></svg>1. Consulting en IA</h4>
               <p className="text-lg text-left">Nous évaluons minutieusement vos données et votre activité, afin de vous accompagner dans la définition d'une stratégie solide en matière d'intelligence artificielle.</p>
             </div>
           </div>
 
-          <div className="card bg-base-100 shadow-xl shadow-neutral-900">
+          <div className="card bg-base-100 shadow-sm shadow-neutral-900">
             <div className="card-body">
               <h4 className="text-2xl card-title text-blue-600 mb-2 text-start"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" /></svg> 2. Création de MVP</h4>
               <p className="text-lg text-left">Une fois le besoin analysé nous créons une première version d'application IA s'intégrant dans votre écosystème. Notre approche repose sur l'utilisation de modèles d'IA générative avancés tels que  <a href="https://platform.openai.com/docs/models" rel="noreferrer" target="_blank" className="link">GPT</a> (ChatGPT) et <a href="https://stability.ai" rel="noreferrer" target="_blank" className="link">Stable Diffusion</a>, garantissant ainsi des solutions innovantes et performantes.</p>
             </div>
           </div>
 
-          <div className="card bg-base-100 shadow-xl shadow-neutral-900">
+          <div className="card bg-base-100 shadow-sm shadow-neutral-900">
             <div className="card-body">
               <h4 className="text-2xl card-title text-blue-200 mb-2 text-start"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg> 3. Création de modèles</h4>
               <p className="text-lg text-left">Nous développons des modèles IA sur mesure en utilisant vos propres données ou des données ouvertes. De la préparation du jeu de données à l'entraînement et au paramétrage du modèle, nous vous offrons des résultats fiables et adaptés à votre entreprise.</p>
@@ -72,7 +72,7 @@ function App() {
 
           <div className="grid sm:grid-cols-1 md:grid-cols-2 mb-40 gap-12 text-justify">
 
-          <a href="https://pyko.co" target="_blank" rel="noreferrer" className="card bg-base-100 shadow-xl hover:shadow-2xl">
+          <a href="https://pyko.co" target="_blank" rel="noreferrer" className="card bg-base-100 shadow-sm hover:shadow-md">
               <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                   <img src="/pyko-analytics-1.jpg" className="w-full" alt="" />
@@ -110,7 +110,7 @@ function App() {
               </div>
             </a>
 
-            <a href="https://twitter.com/firewatchbot" target="_blank" rel="noreferrer" className="card bg-base-100 shadow-xl hover:shadow-2xl">
+            <a href="https://twitter.com/firewatchbot" target="_blank" rel="noreferrer" className="card bg-base-100 shadow-sm hover:shadow-md">
               <div className="carousel w-full">
                 <div id="slide21" className="carousel-item relative w-full">
                   <img src="/firewatch-1.png" className="w-full" alt="" />
@@ -154,7 +154,7 @@ function App() {
               </div>
             </a>
 
-            <a href="https://apps.apple.com/fr/app/histoires-infinies/id6449842969" target="_blank" rel="noreferrer" className="card bg-base-100 shadow-xl hover:shadow-2xl">
+            <a href="https://apps.apple.com/fr/app/histoires-infinies/id6449842969" target="_blank" rel="noreferrer" className="card bg-base-100 shadow-sm hover:shadow-md">
               <figure>
                 <img src="/histoires-infinies-mobile.png" alt="" />
               </figure>
@@ -179,7 +179,7 @@ function App() {
               </div>
             </a>
 
-            <div className="card bg-base-100 shadow-xl">
+            <div className="card bg-base-100 shadow-sm hover:shadow-md">
               <figure>
                 <img src="/stonkgpt.png" alt="" />
               </figure>

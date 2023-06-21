@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['poppins', 'sans-serif'],
+    },
     extend: {
       animation: {
         text: 'text 5s ease infinite',
