@@ -226,7 +226,7 @@ function App() {
       </div>
 
       <div className="bg-purple-950 py-6 pb-4 opacity-70 grid grid-cols-2">
-        <div className="text-left pl-10">© {new Date().getFullYear()} studio cercle</div>
+        <div className="text-left pl-10">© {new Date().getFullYear()} cercle.studio</div>
 
         <div className="text-right pr-10">
           <a href="https://twitter.com/cercle_studio" target="_blank" rel="noreferrer" className="inline-block">
